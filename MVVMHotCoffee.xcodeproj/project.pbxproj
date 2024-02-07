@@ -7,16 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2110A3A22B0B80E800A77F53 /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2110A3A12B0B80E800A77F53 /* WebServices.swift */; };
+		2110A3A52B0B83B000A77F53 /* OrdersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2110A3A42B0B83B000A77F53 /* OrdersModel.swift */; };
+		214ABFB12B41A5140094297D /* CustomDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214ABFB02B41A5140094297D /* CustomDelegates.swift */; };
+		218A6BC12B0CE4E800D58D4E /* AppConfigirations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218A6BC02B0CE4E800D58D4E /* AppConfigirations.swift */; };
+		218A6BC42B0CE57500D58D4E /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218A6BC32B0CE57500D58D4E /* EndPoints.swift */; };
+		218A6BC72B0CF5F700D58D4E /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218A6BC62B0CF5F700D58D4E /* OrderViewModel.swift */; };
+		218A6BCD2B0E360C00D58D4E /* OrdersTablViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218A6BCB2B0E360B00D58D4E /* OrdersTablViewCell.swift */; };
+		218A6BCE2B0E360C00D58D4E /* OrdersTablViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 218A6BCC2B0E360B00D58D4E /* OrdersTablViewCell.xib */; };
 		21D1D02C2B0A4B1F00F966C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D1D02B2B0A4B1F00F966C8 /* AppDelegate.swift */; };
 		21D1D02E2B0A4B1F00F966C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D1D02D2B0A4B1F00F966C8 /* SceneDelegate.swift */; };
-		21D1D0302B0A4B1F00F966C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D1D02F2B0A4B1F00F966C8 /* ViewController.swift */; };
-		21D1D0332B0A4B1F00F966C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21D1D0312B0A4B1F00F966C8 /* Main.storyboard */; };
 		21D1D0362B0A4B1F00F966C8 /* MVVMHotCoffee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 21D1D0342B0A4B1F00F966C8 /* MVVMHotCoffee.xcdatamodeld */; };
 		21D1D0382B0A4B2100F966C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21D1D0372B0A4B2100F966C8 /* Assets.xcassets */; };
 		21D1D03B2B0A4B2100F966C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21D1D0392B0A4B2100F966C8 /* LaunchScreen.storyboard */; };
 		21D1D0462B0A4B2100F966C8 /* MVVMHotCoffeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D1D0452B0A4B2100F966C8 /* MVVMHotCoffeeTests.swift */; };
 		21D1D0502B0A4B2100F966C8 /* MVVMHotCoffeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D1D04F2B0A4B2100F966C8 /* MVVMHotCoffeeUITests.swift */; };
 		21D1D0522B0A4B2100F966C8 /* MVVMHotCoffeeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D1D0512B0A4B2100F966C8 /* MVVMHotCoffeeUITestsLaunchTests.swift */; };
+		21D1D06C2B0A52C300F966C8 /* AddOrdersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D1D06A2B0A52C300F966C8 /* AddOrdersVC.swift */; };
+		21D1D06D2B0A52C300F966C8 /* AddOrdersVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21D1D06B2B0A52C300F966C8 /* AddOrdersVC.xib */; };
+		21D1D0762B0A53F600F966C8 /* OrdersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D1D0742B0A53F600F966C8 /* OrdersVC.swift */; };
+		21D1D0772B0A53F600F966C8 /* OrdersVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21D1D0752B0A53F600F966C8 /* OrdersVC.xib */; };
+		21D5572B2B0E3CC800801F3C /* AddOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D5572A2B0E3CC800801F3C /* AddOrderViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +48,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2110A3A12B0B80E800A77F53 /* WebServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
+		2110A3A42B0B83B000A77F53 /* OrdersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersModel.swift; sourceTree = "<group>"; };
+		214ABFB02B41A5140094297D /* CustomDelegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDelegates.swift; sourceTree = "<group>"; };
+		218A6BC02B0CE4E800D58D4E /* AppConfigirations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfigirations.swift; sourceTree = "<group>"; };
+		218A6BC32B0CE57500D58D4E /* EndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
+		218A6BC62B0CF5F700D58D4E /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
+		218A6BCB2B0E360B00D58D4E /* OrdersTablViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersTablViewCell.swift; sourceTree = "<group>"; };
+		218A6BCC2B0E360B00D58D4E /* OrdersTablViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrdersTablViewCell.xib; sourceTree = "<group>"; };
 		21D1D0282B0A4B1F00F966C8 /* MVVMHotCoffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMHotCoffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21D1D02B2B0A4B1F00F966C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21D1D02D2B0A4B1F00F966C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		21D1D02F2B0A4B1F00F966C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		21D1D0322B0A4B1F00F966C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		21D1D0352B0A4B1F00F966C8 /* MVVMHotCoffee.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MVVMHotCoffee.xcdatamodel; sourceTree = "<group>"; };
 		21D1D0372B0A4B2100F966C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21D1D03A2B0A4B2100F966C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +68,11 @@
 		21D1D04B2B0A4B2100F966C8 /* MVVMHotCoffeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMHotCoffeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21D1D04F2B0A4B2100F966C8 /* MVVMHotCoffeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMHotCoffeeUITests.swift; sourceTree = "<group>"; };
 		21D1D0512B0A4B2100F966C8 /* MVVMHotCoffeeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMHotCoffeeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		21D1D06A2B0A52C300F966C8 /* AddOrdersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrdersVC.swift; sourceTree = "<group>"; };
+		21D1D06B2B0A52C300F966C8 /* AddOrdersVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddOrdersVC.xib; sourceTree = "<group>"; };
+		21D1D0742B0A53F600F966C8 /* OrdersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersVC.swift; sourceTree = "<group>"; };
+		21D1D0752B0A53F600F966C8 /* OrdersVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrdersVC.xib; sourceTree = "<group>"; };
+		21D5572A2B0E3CC800801F3C /* AddOrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrderViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +100,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2110A3A02B0B80B400A77F53 /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				2110A3A12B0B80E800A77F53 /* WebServices.swift */,
+				218A6BC02B0CE4E800D58D4E /* AppConfigirations.swift */,
+				218A6BC32B0CE57500D58D4E /* EndPoints.swift */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+		2110A3A32B0B83A200A77F53 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2110A3A42B0B83B000A77F53 /* OrdersModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		214ABFAF2B41A4FF0094297D /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				214ABFB02B41A5140094297D /* CustomDelegates.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		218A6BC52B0CF5E000D58D4E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				218A6BC62B0CF5F700D58D4E /* OrderViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		218A6BCA2B0E35EA00D58D4E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				218A6BCB2B0E360B00D58D4E /* OrdersTablViewCell.swift */,
+				218A6BCC2B0E360B00D58D4E /* OrdersTablViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		218A6BCF2B0E38E300D58D4E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				21D1D0742B0A53F600F966C8 /* OrdersVC.swift */,
+				21D1D0752B0A53F600F966C8 /* OrdersVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		218A6BD02B0E39F600D58D4E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				21D1D06A2B0A52C300F966C8 /* AddOrdersVC.swift */,
+				21D1D06B2B0A52C300F966C8 /* AddOrdersVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		218A6BD22B0E3A0200D58D4E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				21D5572A2B0E3CC800801F3C /* AddOrderViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		21D1D01F2B0A4B1F00F966C8 = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +192,10 @@
 		21D1D02A2B0A4B1F00F966C8 /* MVVMHotCoffee */ = {
 			isa = PBXGroup;
 			children = (
-				21D1D02B2B0A4B1F00F966C8 /* AppDelegate.swift */,
-				21D1D02D2B0A4B1F00F966C8 /* SceneDelegate.swift */,
-				21D1D02F2B0A4B1F00F966C8 /* ViewController.swift */,
-				21D1D0312B0A4B1F00F966C8 /* Main.storyboard */,
+				214ABFAF2B41A4FF0094297D /* Helper */,
+				2110A3A02B0B80B400A77F53 /* WebServices */,
+				21D1D05F2B0A4DDB00F966C8 /* Scenes */,
+				21D1D05E2B0A4DC800F966C8 /* Core */,
 				21D1D0372B0A4B2100F966C8 /* Assets.xcassets */,
 				21D1D0392B0A4B2100F966C8 /* LaunchScreen.storyboard */,
 				21D1D03C2B0A4B2100F966C8 /* Info.plist */,
@@ -128,6 +219,44 @@
 				21D1D0512B0A4B2100F966C8 /* MVVMHotCoffeeUITestsLaunchTests.swift */,
 			);
 			path = MVVMHotCoffeeUITests;
+			sourceTree = "<group>";
+		};
+		21D1D05E2B0A4DC800F966C8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				21D1D02D2B0A4B1F00F966C8 /* SceneDelegate.swift */,
+				21D1D02B2B0A4B1F00F966C8 /* AppDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		21D1D05F2B0A4DDB00F966C8 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				21D1D06F2B0A535A00F966C8 /* OrdersVC */,
+				21D1D0692B0A52A300F966C8 /* AddOrdersVC */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		21D1D0692B0A52A300F966C8 /* AddOrdersVC */ = {
+			isa = PBXGroup;
+			children = (
+				218A6BD22B0E3A0200D58D4E /* ViewModel */,
+				218A6BD02B0E39F600D58D4E /* View */,
+			);
+			path = AddOrdersVC;
+			sourceTree = "<group>";
+		};
+		21D1D06F2B0A535A00F966C8 /* OrdersVC */ = {
+			isa = PBXGroup;
+			children = (
+				218A6BCF2B0E38E300D58D4E /* View */,
+				218A6BCA2B0E35EA00D58D4E /* Cells */,
+				218A6BC52B0CF5E000D58D4E /* ViewModel */,
+				2110A3A32B0B83A200A77F53 /* Model */,
+			);
+			path = OrdersVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,9 +363,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21D1D06D2B0A52C300F966C8 /* AddOrdersVC.xib in Resources */,
+				21D1D0772B0A53F600F966C8 /* OrdersVC.xib in Resources */,
 				21D1D03B2B0A4B2100F966C8 /* LaunchScreen.storyboard in Resources */,
 				21D1D0382B0A4B2100F966C8 /* Assets.xcassets in Resources */,
-				21D1D0332B0A4B1F00F966C8 /* Main.storyboard in Resources */,
+				218A6BCE2B0E360C00D58D4E /* OrdersTablViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +392,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21D1D0302B0A4B1F00F966C8 /* ViewController.swift in Sources */,
 				21D1D02C2B0A4B1F00F966C8 /* AppDelegate.swift in Sources */,
+				218A6BC42B0CE57500D58D4E /* EndPoints.swift in Sources */,
+				21D1D0762B0A53F600F966C8 /* OrdersVC.swift in Sources */,
+				214ABFB12B41A5140094297D /* CustomDelegates.swift in Sources */,
+				21D5572B2B0E3CC800801F3C /* AddOrderViewModel.swift in Sources */,
+				218A6BC12B0CE4E800D58D4E /* AppConfigirations.swift in Sources */,
+				2110A3A52B0B83B000A77F53 /* OrdersModel.swift in Sources */,
+				2110A3A22B0B80E800A77F53 /* WebServices.swift in Sources */,
+				21D1D06C2B0A52C300F966C8 /* AddOrdersVC.swift in Sources */,
+				218A6BC72B0CF5F700D58D4E /* OrderViewModel.swift in Sources */,
 				21D1D02E2B0A4B1F00F966C8 /* SceneDelegate.swift in Sources */,
 				21D1D0362B0A4B1F00F966C8 /* MVVMHotCoffee.xcdatamodeld in Sources */,
+				218A6BCD2B0E360C00D58D4E /* OrdersTablViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +441,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		21D1D0312B0A4B1F00F966C8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				21D1D0322B0A4B1F00F966C8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		21D1D0392B0A4B2100F966C8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -441,11 +573,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NU3L58K3P3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MVVMHotCoffee/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -453,7 +585,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ios.MVVMHotCoffee;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.MVVMHotCoffe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -468,11 +600,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NU3L58K3P3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MVVMHotCoffee/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -480,7 +612,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ios.MVVMHotCoffee;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.MVVMHotCoffe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
